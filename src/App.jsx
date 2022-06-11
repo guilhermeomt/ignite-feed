@@ -1,7 +1,8 @@
+import { Header } from "./components/Header/Header";
 import "./global.css";
 
 function App() {
-  return <h1>Olá Mundo!</h1>;
+  return <Header />;
 }
 
 export { App };
